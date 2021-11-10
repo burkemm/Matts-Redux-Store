@@ -15,6 +15,7 @@ const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 const Cart = () => {
 // I made state and dispatch two independent constants assigning state to the useSelector hook and dispatch to useDispatch hook.
   const dispatch = useDispatch();
+  // Defined state as useSelector.
   const state = useSelector((state) => {
     return state;
   });
